@@ -1,0 +1,25 @@
+body{
+    background-color:#161D25;
+}
+
+.texts{
+    color: #77ADDC;
+}
+.texts:hover{
+    color: #ffffff;
+}
+
+.navs{
+    background-color: #222933;
+}
+.nav-item :hover{
+    background-color: #2A313B;
+
+}
+.card-width{
+    width: 18rem;
+}
+/* .hex{
+    height: 400px;
+    
+} */
