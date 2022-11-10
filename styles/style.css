@@ -6,6 +6,10 @@ body{
     z-index: 5;
 
 }
+.zen-4{
+    z-index: 4;
+
+}
 .mers{
     padding:70px 0;
 }
@@ -29,12 +33,16 @@ body{
 
 }
 .hex{
+    
     height: 500px;
     
 }
 .hexs{
     height: 150px;
     
+}
+.tops{
+    top: 120px;
 }
 .bloc{
     display:block;
@@ -70,9 +78,19 @@ body{
     100% { transform: scale(3)}
   }
 
+  @media only screen and (max-width: 1300px){
+
+    .hex{
+        
+        height: 500px;
+        
+    }
+}
+
 @media only screen and (max-width: 768px){
 
 .hex{
+   
     height: 500px;
     
 }
